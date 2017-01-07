@@ -1,10 +1,9 @@
 out
 build
-loader/build
-arm11/build
 *.bin
 *.3dsx
 *.smdh
 *.o
 *.d
 *.elf
+*.bat

@@ -1,5 +1,9 @@
+// Copyright 2014 Normmatt
+// Licensed under GPLv2 or any later version
+// Refer to the license.txt file included.
+
 #pragma once
 
-#include "../../types.h"
+#include "common.h"
 
-void waitcycles(u32 us);
+void ioDelay(u32 us);

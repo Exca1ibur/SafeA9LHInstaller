@@ -5,7 +5,7 @@ SECTIONS
     .text.start : { *(.text.start) }
     .text : { *(.text) }
     .data : { *(.data) }
-    .bss : { __bss_start = .; *(.bss COMMON) } __bss_end = .;
+    .bss : { *(.bss COMMON) }
     .rodata : { *(.rodata) }
     . = ALIGN(4);
 }

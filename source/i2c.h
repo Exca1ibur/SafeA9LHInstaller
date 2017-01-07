@@ -15,4 +15,4 @@
 #define I2C_DEV_GYRO 10
 #define I2C_DEV_IR   13
 
-bool i2cWriteRegister(u8 dev_id, u8 reg, u8 data);
+u32 i2cWriteRegister(u8 dev_id, u8 reg, u8 data);
